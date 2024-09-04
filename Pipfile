@@ -12,11 +12,13 @@ python-dotenv = "*"
 tiktoken = "*"
 fastapi = "==0.111.0"
 black = "*"
-unstructured = "*"
-psycopg2-binary = "*"
-langchain-postgres = "*"
-pgvector = "*"
-python-magic-bin = "==0.4.14"
+#unstructured = "*"
+#psycopg2-binary = "*"
+#langchain-postgres = "*"
+#pgvector = "*"
+#python-magic-bin = "==0.4.14"
+unstructured = {extras = ["all-docs"], version = "*"}
+certifi = "*"
 
 [dev-packages]
 
